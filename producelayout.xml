@@ -1,0 +1,126 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="PRODUCE X 101"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+       	android:id="@+id/title_text_view"        
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:textSize="28sp"
+        android:background="#0039cb"
+        android:padding="8dp"/>
+    
+    <View
+        android:gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+		android:background="#000000" 
+        />
+    
+    <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="#4E4B4F" />
+    
+    <Button
+		android:id="@+id/push_button"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-light"
+        android:background="#ffff"
+        android:padding="6dp"/>
+    
+     <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="#b1bfca" />
+    
+     <Button
+		android:id="@+id/push_button"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-light"
+        android:background="#ffff"
+        android:padding="6dp"/>
+     <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="#b1bfca" />
+    
+    <Button
+		android:id="@+id/push_button"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Album"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-light"
+        android:background="#fff"
+        android:padding="6dp"/>
+     <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="#b1bfca" />
+    
+    <Button
+		android:id="@+id/push_button"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Members"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-light"
+        android:background="#fff"
+        android:padding="6dp"/>
+    
+     <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="#b1bfca" />
+    <Button
+		android:id="@+id/push_button"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goodies"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-light"
+        android:background="#fff"
+        android:padding="6dp"/>
+     <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="#b1bfca" />
+    
+    <Button
+		android:id="@+id/push_button"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-light"
+        android:background="#fff"
+        android:padding="6dp"/>
+    
+     <View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="#b1bfca"  />
+    
+   <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+       	android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"
+       	android:textColor="#000"
+        android:text="MORE"
+       	android:padding="8dp"/>
+</LinearLayout>
