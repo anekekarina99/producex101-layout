@@ -1,0 +1,11 @@
+    <TextView
+        android:text="PRODUCE X 101"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       	android:id="@+id/tvSplash"        
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:textSize="40sp"
+        android:background="#003dfd"
+        android:padding="8dp"/>
